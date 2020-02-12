@@ -1,0 +1,27 @@
+
+body {
+    background-color: rgba(194, 192, 192, 0.774);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.circle {
+    background: rgba(33, 158, 33, 0.63);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 30px;
+    margin: 30px;
+    font-family: Roboto;
+    font-size: 30px;
+    text-align: center;
+    color: #FFF;
+}
